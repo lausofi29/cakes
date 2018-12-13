@@ -1,0 +1,328 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Le Creame</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="color-theme-red">
+	
+	<div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+	  
+	   <section class="panel panel-left panel-cover">
+		   <div class="bg-panel">
+			   <img src="Examen/cheesecake.jpg" alt="logo" class="img-fluid w-80">
+		   </div>
+		   <article class="lista-menu">
+			   
+			   <div class="list media-list">
+				   <ul>
+					  <!--<li>
+						   <a href="#" class="item-content item-link">
+						   		<div class="item-media">
+									<i class="material-icons">
+									home
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Home
+									   </div>
+								   </div>
+								   <div class="item-subtitle">
+									   Info
+								   </div>
+								   <div class="item-text">		 
+								   Texto informativo
+								   </div>
+							   </div>
+						   </a>
+					   </li>-->
+					   
+					    <li>
+						   <a href="/home/" class="item-content item-link panel-close">
+						   		<div class="item-media">
+									<i class="material-icons">
+									cake
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										  Cakes
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+					   <li>
+						   <a href="/cupones/" class="item-content item-link panel-close">
+						   		<div class="item-media">
+									<i class="material-icons">
+									cake
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Cupcakes
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+					   <li>
+						   <a href="/comidas/" class="item-content item-link panel-close">
+						   		<div class="item-media">
+									<i class="material-icons">
+									ac_unit
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Sweeties
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+					   <li>
+						   <a href="#" class="item-content item-link">
+						   		<div class="item-media">
+									<i class="material-icons">
+									cake
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Pies
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+					   
+					   <li>
+						   <a href="#" class="item-content item-link">
+						   		<div class="item-media">
+									<i class="material-icons">
+									store
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Stores
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+					    <li>
+						   <a href="#" class="item-content item-link">
+						   		<div class="item-media">
+									<i class="material-icons">
+									card_giftcard
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Delivery
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+					    <li>
+						   <a href="#" class="item-content item-link">
+						   		<div class="item-media">
+									<i class="material-icons">
+									favorite
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Favorites
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+				   </ul>
+			   </div>
+			   
+			   
+		   </article>
+	   </section>
+		
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+              
+			  <div class="left">
+				  <a href="#" class="icon-only link panel-open" data-panel="left">
+					  <i class="material-icons">menu</i>
+				  </a>
+			  </div>
+			  <div class="title">Cakes</div>
+           <i class="material-icons"></i>
+            </div>
+          </nav>
+          
+		  		<div class="toolbar tabbar-labels">
+				<div class="toolbar-inner">
+					<a href="/cookies/" class="tab-link tab-link-active">
+						<i class="material-icons">favorite</i>
+						<span class="tabbar-label">Cookies</span>
+						
+					</a>
+					<a href="/cakes/" class="tab-link tab-link-active">
+						<i class="material-icons">cake</i>
+						<span class="tabbar-label">Cakes</span>	
+ 
+					</a>
+				
+  
+				</div>
+			</div>
+
+          <!-- Scrollable page content -->
+          <section class="page-content">
+			  
+			  
+			 <div class="row">
+			
+			<article class="col-50">
+				
+				
+				<div class="card">
+					<a href="/sueter/" class="item-content item-link">
+					<div class="card-header">
+						<img src="img/caramello-cake-105070-1.jpeg" class="img-fluid">
+					</div>
+					<div class="card-content">
+						<div class="block">
+							<h4>Chocolaty currant</h4>
+						</div>
+					</div>
+					<div class="card-footer">
+						$12
+					</div>
+						</a>
+				</div>
+			
+				<div class="card">
+					<div class="card-header">
+						<img src="Examen/chocolate-cake.jpg" class="img-fluid">
+					</div>
+					<div class="card-content">
+						<div class="block">
+							<h4>Strawberry night</h4>
+						</div>
+					</div>
+					<div class="card-footer">
+						$10
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header">
+						<img src="img/chocolate-truffle-cake-dark-chocolate-cake-chocolate-sponge-cake.jpg" class="img-fluid">
+					</div>
+					<div class="card-content">
+						<div class="block">
+							<h4>Chocolate Tuffle</h4>
+						</div>
+					</div>
+					<div class="card-footer">
+						$10
+					</div>
+				</div>
+				
+				
+				
+			</article>
+			
+			<article class="col-50">
+				
+			
+				<div class="card">
+					<div class="card-header">
+						<img src="Examen/raspberry-meringue.jpg" class="img-fluid">
+					</div>
+					<div class="card-content">
+						<div class="block">
+							<h4>Raspberry Meringue</h4>
+						</div>
+					</div>
+					<div class="card-footer">
+						$15
+					</div>
+				</div>
+				
+		
+				<div class="card">
+					<div class="card-header">
+						<img src="Examen/lemon-pie.jpg" class="img-fluid">
+					</div>
+					<div class="card-content">
+						<div class="block">
+							<h4>Delicate cherries</h4>
+						</div>
+					</div>
+					<div class="card-footer">
+						$16
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header">
+						<img src="img/choc-mint-forest-naked-cake-109491-1.jpeg" class="img-fluid">
+					</div>
+					<div class="card-content">
+						<div class="block">
+							<h4>Choco mint forest</h4>
+						</div>
+					</div>
+					<div class="card-footer">
+						$10
+					</div>
+				</div>
+				
+				
+			</article>
+				 
+			 
+			  		  
+			  
+			  
+          </section>
+			
+        </div>
+      </div>
+    </div>
+	
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>
